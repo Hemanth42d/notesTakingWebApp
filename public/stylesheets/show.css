@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.mainContainer{
+    padding: 2rem;
+}
+
+.homeLink a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+.homeLink{
+    margin-bottom: 15px;
+}
+
+.description{
+    margin-top: 2rem;
+    font-size: 22px;
+}

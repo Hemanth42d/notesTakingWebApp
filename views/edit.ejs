@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes Taking</title>
+    <link rel="stylesheet" href="/stylesheets/edit.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <header class="headerSec">
+        <div class="appTitle">
+          <h1>Notes Taking Web App</h1>
+        </div>
+        <form action="/edit" class="formSec" method="post">
+          <input
+            class="headerTitle"
+            type="text"
+            value="<%= filename %>"
+            name="previous"
+            readonly="readonly"
+          />
+          <input
+            class="headerTitle"
+            type="text"
+            placeholder="Enter New title"
+            name="new"
+          />
+
+          <input class="renamebtn" type="submit" value="Rename" />
+        </form>
+      </header>
+    </div>
+  </body>
+</html>
