@@ -1,0 +1,23 @@
+{
+  "name": "notestakingwebapp",
+  "version": "1.0.0",
+  "description": "Notes taking web app that takes notes and description of the notes",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemanth42d/Notes-Taking-Web-App.git"
+  },
+  "author": "M.V.Hemanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemanth42d/Notes-Taking-Web-App/issues"
+  },
+  "homepage": "https://github.com/Hemanth42d/Notes-Taking-Web-App#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
