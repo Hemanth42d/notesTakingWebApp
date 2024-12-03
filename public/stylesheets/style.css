@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: rgb(28, 28, 28);
+}
+
+.headerSec{
+    padding: 2rem;
+}
+
+.appTitle{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.headerTitle, .headerDescription{
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 10px 0px 10px 10px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(70, 69, 69);
+    border: none;
+    outline: none;
+}
+
+.headerDescription{
+    resize: none;
+    font-size: large;
+}
+
+.headerSubmit{
+    padding: 10px;
+    width: 10%;
+    font-size: medium;
+    background-color: rgb(43, 43, 183);
+    border: none;
+    border-radius: 5px;
+}
+
+.headerSubmit:hover{
+    cursor: pointer;
+}
+
+.notes{
+    display: flex;
+    padding: 10px;
+    gap: 2em;
+    padding-left: 2rem;
+    flex-wrap: wrap;
+}
+
+.note{
+    background-color: rgb(61, 61, 61);
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 50%;
+}
+
+.note h1{
+    margin-bottom: 1.2rem;
+}
+
+.noteReadMeLink{
+    color: rgb(77, 77, 233);
+}
+
+.noteEditLink{
+    color: rgb(77, 77, 233);
+}
+
+.noteLinkSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.noteLinkSec a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.noTaksText{
+    padding-left: 3rem;
+    font-size: 18px;
+    color: rgb(118, 118, 118);
+}
